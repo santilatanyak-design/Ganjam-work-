@@ -1,0 +1,39 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper function to check if user is admin
+    function isAdmin() {
+      return request.auth != null && 
+             request.auth.token.email != null && 
+             request.auth.token.email == "santilatanyak@gmail.com";
+    }
+
+    // Public read access for worker profiles, produce, equipment, mandi rates, and bookings
+    match /workers/{workerId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /produce/{produceId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /equipment/{equipmentId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /mandiRates/{rateId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /bookings/{bookingId} {
+      allow read: if true;
+      allow create: if true; // Any user can place an order
+      allow update, delete: if isAdmin();
+    }
+  }
+}

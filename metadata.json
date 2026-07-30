@@ -1,0 +1,6 @@
+{
+  "name": "Ganjam Express - Seva & Agri Mandi",
+  "description": "Hyper-local service booking directory, farmer marketplace, equipment rental, and live mandi rates platform for Ganjam, Odisha with bilingual Odia support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

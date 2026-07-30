@@ -1,0 +1,29 @@
+{
+  "entities": {
+    "workers": {
+      "title": "Worker Profiles",
+      "description": "Skilled workers and artisans in Ganjam district",
+      "type": "object"
+    },
+    "produce": {
+      "title": "Farm Produce Marketplace",
+      "description": "Farmer crop and vegetable market listings",
+      "type": "object"
+    },
+    "equipment": {
+      "title": "Machinery Rentals",
+      "description": "Tractor and farm equipment rental items",
+      "type": "object"
+    },
+    "mandiRates": {
+      "title": "Mandi Rates",
+      "description": "Wholesale agricultural market rate ticker",
+      "type": "object"
+    },
+    "bookings": {
+      "title": "Customer Bookings & Orders",
+      "description": "Service requests and produce purchase orders",
+      "type": "object"
+    }
+  }
+}

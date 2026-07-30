@@ -1,0 +1,99 @@
+{
+  "district": "Ganjam",
+  "districtOdia": "ଗଞ୍ଜାମ",
+  "blocks": [
+    {
+      "id": "bhanjanagar",
+      "nameEn": "Bhanjanagar",
+      "nameOr": "ଭଞ୍ଜନଗର",
+      "villages": [
+        {
+          "id": "bhanjanagar_v1",
+          "nameEn": "Bhanjanagar",
+          "nameOr": "ଭଞ୍ଜନଗର",
+          "pincode": "761126"
+        },
+        {
+          "id": "bhanjanagar_v2",
+          "nameEn": "Baunsalundi",
+          "nameOr": "ବାଉଁଶଲୁଣ୍ଡି",
+          "pincode": "761125"
+        },
+        {
+          "id": "bhanjanagar_v3",
+          "nameEn": "Mujagada",
+          "nameOr": "ମୁଜାଗଡ଼",
+          "pincode": "761120"
+        },
+        {
+          "id": "bhanjanagar_v4",
+          "nameEn": "Lalsing",
+          "nameOr": "ଲାଲସିଂ",
+          "pincode": "761126"
+        }
+      ]
+    },
+    {
+      "id": "buguda",
+      "nameEn": "Buguda",
+      "nameOr": "ବୁଗୁଡ଼ା",
+      "villages": [
+        {
+          "id": "buguda_v1",
+          "nameEn": "Buguda",
+          "nameOr": "ବୁଗୁଡ଼ା",
+          "pincode": "761118"
+        },
+        {
+          "id": "buguda_v2",
+          "nameEn": "Balipadar",
+          "nameOr": "ବାଲିପଦର",
+          "pincode": "761117"
+        },
+        {
+          "id": "buguda_v3",
+          "nameEn": "Karadabadi",
+          "nameOr": "କରଡ଼ାବାଡି",
+          "pincode": "761118"
+        },
+        {
+          "id": "buguda_v4",
+          "nameEn": "Manikapur",
+          "nameOr": "ମାଣିକପୁର",
+          "pincode": "761118"
+        }
+      ]
+    },
+    {
+      "id": "jagannath_prasad",
+      "nameEn": "Jagannath Prasad",
+      "nameOr": "ଜଗନ୍ନାଥ ପ୍ରସାଦ",
+      "villages": [
+        {
+          "id": "jp_v1",
+          "nameEn": "Jagannath Prasad",
+          "nameOr": "ଜଗନ୍ନାଥ ପ୍ରସାଦ",
+          "pincode": "761121"
+        },
+        {
+          "id": "jp_v2",
+          "nameEn": "Panchabhuti",
+          "nameOr": "ପଞ୍ଚଭୂତି",
+          "pincode": "761121"
+        },
+        {
+          "id": "jp_v3",
+          "nameEn": "Tarasingi",
+          "nameOr": "ତାରାସିଙ୍ଗି",
+          "pincode": "761121"
+        },
+        {
+          "id": "jp_v4",
+          "nameEn": "Gayaganda",
+          "nameOr": "ଗାୟଗଣ୍ଡା",
+          "pincode": "761121"
+        }
+      ]
+    }
+  ]
+}
